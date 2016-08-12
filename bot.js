@@ -1,7 +1,8 @@
-var nodeogram = require('nodeogram');
-var getPage = require('summarizer').getPage;
+const nodeogram = require('nodeogram'),
+      config = require('./config.json'),
+const getPage = require('summarizer').getPage,      
 
-bot = new nodeogram.Bot('226855569:AAEipChj1Q0JvU9hX4HoK4Yu_yLHuBAUBxI');
+bot = new nodeogram.Bot(config.token);
 
 bot.init();
 
