@@ -1,6 +1,6 @@
 const nodeogram = require('nodeogram'),
       config = require('./config.json'),
-const getPage = require('summarizer').getPage,      
+      getPage = require('summarizer').getPage,      
 
 bot = new nodeogram.Bot(config.token);
 
@@ -15,4 +15,3 @@ getPage(args[0]).then(function (data) {
 message.reply(`<b>${data.title}</b>\n\n<code>${data.summary}</code>`, {parse_mode: 'HTML'});
 });
 });
-
