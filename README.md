@@ -18,7 +18,27 @@ $ git clone https://github.com/kamikazechaser/SkimBot.git
 
 $ npm install
 
+Change Token In config.json
+
 $ npm start
+```
+
+## Hosting For Free
+
+```bash
+$ git clone https://github.com/kamikazechaser/SkimBot.git
+
+$ cd SkimBot
+
+$ npm install -g now
+
+$ now --login
+
+Confirm Your E-Mail Address
+
+Change Token In config.json
+
+$ now
 ```
 
 ## Usage
