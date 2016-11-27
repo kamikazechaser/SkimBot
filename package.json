@@ -14,7 +14,7 @@
   "license": "WTFPL",
   "homepage": "https://github.com/kamikazechaser/SkimBot",
   "dependencies": {
-    "nodeogram": "0.0.6",
+    "nodeogram": "0.0.7",
     "summarizer": "git+https://git@github.com/kamikazechaser/SkimBot.git#module"
   }
 }
